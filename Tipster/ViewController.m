@@ -40,8 +40,10 @@
     double tipPercentage = [percentages[self.tipControl.selectedSegmentIndex]
                             doubleValue];
     
-    // calculate tip 
+    // calculate tip
     double tip = tipPercentage * bill;
+    
+    // add to total
     double total = bill + tip;
     
     
