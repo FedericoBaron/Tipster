@@ -46,7 +46,7 @@
     // add to total
     double total = bill + tip;
     
-    // display tip
+    // display tip to screen
     self.tipLabel.text = [NSString stringWithFormat:@"$%.2f", tip];
     self.totalLabel.text = [NSString stringWithFormat:@"$%.2f", total];
 }
